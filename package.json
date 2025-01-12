@@ -1,0 +1,32 @@
+{
+  "name": "@nui-react/components",
+  "version": "1.1.0",
+  "description": "nui-React (Next UI - React) is a customizable react UI tool",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "swc src -d dist --copy-files",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "next-ui",
+    "react-ui"
+  ],
+  "author": "Adeesha Mahalekam",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.10.7",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "swc": "^1.0.11",
+    "typescript": "^5.7.3"
+  }
+}
